@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- aos animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <title>Portfolio</title>
+    <title>Portfolio test</title>
   </head>
   <body class="bg-[#1A1A1D] text-white">
     <header class="fixed top-5 px-10 left-1/2 transform -translate-x-1/2 z-10">
@@ -43,19 +43,15 @@
     <!-- hero section -->
     <section
       id="hero"
-      class="bg-[url('images/bg-1.jpg')] bg-cover lg:min-h-screen xl:h-full bg-fixed">
+      class="bg-[url('images/bg-1.jpg')] bg-cover lg:min-h-screen xl:h-full bg-fixed overflow-hidden"
+      >
       <!-- hero container -->
       <div
-        class="container mx-auto py-16 md:py-32 lg:py-40 p-10 flex flex-col space-y-5 space-x-5 md:space-y-0 md:flex-row justify-center">
+        class="container mx-auto py-16 md:py-32 lg:py-40 p-10 flex flex-col space-y-5 space-x-5 md:space-y-0 md:flex-row justify-between
+        ">
         <!-- left -->
-        <div
-          data-aos="fade-right"
-          class="md:w-1/2 flex flex-col items-center md:items-start space-y-4 lg:space-y-5 lg:max-w-md"
-          data-aos="">
-          <h2
-            class="text-transparent bg-gradient-to-r to-white from-white bg-clip-text text-center md:text-left text-3xl lg:text-4xl font-bold md:pb-2 font-sand">
-            Hey There! I'm
-          </h2>
+        <div data-aos="fade-right" class="md:w-1/2 flex flex-col items-center md:items-start space-y-4 lg:space-y-5 lg:max-w-md">
+          <h2 class="text-transparent bg-gradient-to-r to-white from-white bg-clip-text text-center md:text-left text-3xl lg:text-4xl font-bold md:pb-2 font-sand">Hey There! I'm</h2>
           <h1
             class="font-semibold text-4xl text-center md:text-left md:text-5xl lg:text-8xl">
             <span class="font-oswald">Sudharshan</span>
@@ -63,18 +59,16 @@
           <h2 class="text-xl text-center lg:text-3xl md:text-left font-sand">
             I am a Frontend Web Developer & Designer
           </h2>
-          <button
-            class="py-3 px-6 bg-gradient-to-tr shadow-2xl from-purple-700 to-red-600 rounded-full font-sand">
-            Contact me
-          </button>
+          <button class="py-3 px-6 bg-gradient-to-tr shadow-2xl from-purple-700 to-red-600 rounded-full font-sand">Contact me</button>
         </div>
         <!-- right -->
-        <div data-aos="fade-left" class="md:w-1/2">
+        <div class="md:w-1/2" data-aos="fade-left">
           <img src="images/hero-image.png" alt="" />
         </div>
       </div>
     </section>
 
+    
     <!-- About me -->
     <section id="about">
       <h1 data-aos="fade-down" class="my-10 text-center font-semibold text-3xl">
